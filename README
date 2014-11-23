@@ -1,0 +1,6 @@
+This is meant to be a base image to allow remote access run w3af_gui. You
+likely want w3af_gui-ssh or w3af_gui-vnc which build an image with SSH and VNC
+respectively. If you have access to a machine with X11 already, the
+w3af_gui-ssh will be a bit lighter weight. Otherwise, the VNC enviornment will
+work in most other cases.
+
